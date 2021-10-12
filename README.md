@@ -10,4 +10,6 @@
     -Site is intended to be linked with Table Database and be able to modify it according to user specifications
     
     -Could potentially add local password authentication against data from JSON file and AJAX, as well as "fake" database modification (maybe Google's Firebase?)
+    
+    -Uses Bootstrap for CSS and Animations
 
