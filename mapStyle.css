@@ -1,0 +1,79 @@
+header{
+	background: #ab2328;
+	color:#ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #d58570 5px solid;
+}
+
+header a{
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float:left;
+}
+
+header #branding h1{
+	margin:0;
+}
+
+header nav{
+	float:right;
+	margin-top: 10px;
+}
+
+
+.grandparent {
+  width: 100%;
+}
+
+.parent {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+.child1 {
+display: inline-block;
+  background-color: #ffffff;
+  width: 15%;
+  height: 250px;
+  float: left;
+  border-color: #000000;
+  border-width: thick;
+  border-style: dotted;
+}
+
+.child2 {
+	display: inline-block;
+  border-color: #000000;
+
+  background-color: #d6001c;
+  width: 15%;
+  height: 250px;
+  float: left;
+  border-width: thick;
+  border-style: dotted;
+}
+
+.child3 {
+		display: inline-block;
+  border-color: #000000;
+
+  background-color: #ffffff;
+  width: 15%;
+  height: 250px;
+  float: left;
+  border-width: thick;
+  border-style: dotted;
+}

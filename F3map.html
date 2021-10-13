@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Folsom 3 Map</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="mapStyle.css"/>
+</head>
+
+
+<body>
+
+	<header>
+		<div class="container">
+			<div id="branding">
+
+				<span>
+					<img src="resources/RPIsmallLogoWhite.png" alt="RPI" width=15%>
+				</span>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li class="current"><a href="folsom.html">Folsom Maps</a></li>
+					<li><a href="union.html">Union Maps</a></li>
+					<li><a href="https://covid19.rpi.edu/">Covid Policies</a></li>
+				</ul>
+			</nav>
+
+		</div>
+	</header>
+
+
+
+	<!--individual rectangles floating from top to bottom-->
+	<div id="map">
+
+		<div class="tableTop"></div>
+
+		<div class="tableLeft"></div>
+
+		<div class="tableRight"></div>
+
+		<div class="tableBottom"></div>
+
+		<div class="mainStairs"></div>
+	</div>
+
+
+
+
+
+
+	<!--nest columns set up, so rows x columns-->
+	<div class="grandparent">	<!--row-->
+		<div class="parent">
+			<div class="child1">  <!--column-->
+				<p>I am on the left of the first parent container (which is inside a grandparent container).</p>
+				<p>The height of these containers isn't the same... do we know any ways to ensure that the container heights are the same?</p>
+			</div>
+
+
+
+
+			<div class="child2">
+				<p>I am table.</p>
+				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
+				<!-- make reserve button here -->
+				<button class="button"; onclick="buttonfunction()">
+				reserve button
+				</button>
+				<!-- how do we update the color/status of the table????? -->
+			</div>
+
+
+
+
+			<div class="child2">
+				<p>I am table.</p>
+				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
+			</div>
+			<div class="child2">
+				<p>I am table.</p>
+				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
+			</div>
+
+			<div class="child3">
+				<p>I am on the right of the first parent container (which is inside a grandparent container).</p>
+				<p>Notice how "float: left;" is in all three of the child CSS rules. Why is that? What would happen if we changed the float property?</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="grandparent">
+		<div class="parent">
+			<div class="child1" style="float: left">
+				<p>Columns in columns!</p>
+			</div>
+
+			<div class="child2">
+				<p>I am table.</p>
+				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
+			</div>
+			<div class="child2">
+				<p>I am table.</p>
+				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
+			</div>
+			<div class="child2">
+				<p>I am table.</p>
+				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
+			</div>
+
+			<div class="child3" style="float: left">
+				<p>You can do this kind of recursion indefinitely, but make sure it looks OK!</p>
+				<p>You should also try commenting out one of the parent containers (and its children) to see what happens--experiment!</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="grandparent">
+		<div class="parent">
+			<div class="child1" style="float: left">
+				<p>Columns in columns!</p>
+			</div>
+
+			<div class="child2">
+				<p>I am table.</p>
+				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
+			</div>
+			<div class="child2">
+				<p>I am table.</p>
+				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
+			</div>
+			<div class="child2">
+				<p>I am table.</p>
+				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
+			</div>
+
+			<div class="child3" style="float: left">
+				<p>You can do this kind of recursion indefinitely, but make sure it looks OK!</p>
+				<p>You should also try commenting out one of the parent containers (and its children) to see what happens--experiment!</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="grandparent">
+		<div class="parent">
+			<div class="child1">
+				<p>I am on the left of the first parent container (which is inside a grandparent container).</p>
+				<p>The height of these containers isn't the same... do we know any ways to ensure that the container heights are the same?</p>
+			</div>
+			<div class="child2">
+				<p>I am table.</p>
+				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
+			</div>
+			<div class="child2">
+				<p>I am table.</p>
+				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
+			</div>
+			<div class="child2">
+				<p>I am table.</p>
+				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
+			</div>
+			<div class="child3">
+				<p>I am on the right of the first parent container (which is inside a grandparent container).</p>
+				<p>Notice how "float: left;" is in all three of the child CSS rules. Why is that? What would happen if we changed the float property?</p>
+			</div>
+		</div>
+	</div>
+
+		<div class="grandparent">
+		<div class="parent">
+			<div class="child1">
+				<p>I am on the left of the first parent container (which is inside a grandparent container).</p>
+				<p>The height of these containers isn't the same... do we know any ways to ensure that the container heights are the same?</p>
+			</div>
+			<div class="child2">
+				<p>I am table.</p>
+				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
+			</div>
+			<div class="child2">
+				<p>I am table.</p>
+				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
+			</div>
+			<div class="child2">
+				<p>I am table.</p>
+				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
+			</div>
+			<div class="child3">
+				<p>I am on the right of the first parent container (which is inside a grandparent container).</p>
+				<p>Notice how "float: left;" is in all three of the child CSS rules. Why is that? What would happen if we changed the float property?</p>
+			</div>
+		</div>
+	</div>
+
+</body>
