@@ -12,6 +12,4 @@
     -Could potentially add local password authentication against data from JSON file and AJAX, as well as "fake" database modification (maybe Google's Firebase?)
     
     -Uses Bootstrap for CSS and Animations
-    
-    -MOST RECENT UPDATE: SITE IS NOW PROPERLY FORMATTED ON DESKTOP AND MOBILE WITH SCROLLING/OVERFLOW DISABLED!!! CHECK-IN PAGE FINISHED.
 
