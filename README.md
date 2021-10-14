@@ -1,13 +1,13 @@
 # TableTime
 
--Finalized Demo Page Features:
 
-        -Bootstrap/CSS used for "Drop Down" and "Fade In" Animations
-        -Login Page
-        -Check-In Confirmation Page
-        -Reservation Extension + Confirmation with "Time Picker"
-        -Early Checkout Page
-        -Home button on all pages to return back to three main functions
+        -Finalized Demo Page Features:
+                -Bootstrap/CSS used for "Drop Down" and "Fade In" Animations
+                -Login Page
+                -Check-In Confirmation Page
+                -Reservation Extension + Confirmation with "Time Picker"
+                -Early Checkout Page
+                -Home button on all pages to return back to three main functions
         
         
         -To add in future:
