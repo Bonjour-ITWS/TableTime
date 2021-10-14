@@ -109,6 +109,9 @@ button {
   cursor: pointer;
 }
 
+button:focus{background-color:red;}
+
+
 /*
 button:visited { #ccc; }
 */
