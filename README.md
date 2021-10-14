@@ -7,7 +7,7 @@
 
 ***Main Site Info Box***:
 
-                -Here there will be features of the main page listed
+         -Here there will be features of the main page listed
 
 ***Micro-Site Info Box***:
 
