@@ -3,15 +3,17 @@
 ![QR Code](/qr-code.png)
 
 
-[Main Site Demo Link](https://bonjour-itws.github.io/TableTime/)
 
-[Sub-Site Demo Link](https://bonjour-itws.github.io/TableTime-SubSite/)
+
 
 ***Main Site Info Box***:
+
+[Main Site Demo Link](https://bonjour-itws.github.io/TableTime/)
 
          -Here there will be features of the main page listed
 
 ***Micro-Site Info Box***:
+[Sub-Site Demo Link](https://bonjour-itws.github.io/TableTime-SubSite/)
 
         -Finalized Demo Page Features:
                 -Bootstrap/CSS used for "Drop Down" and "Fade In" Animations
