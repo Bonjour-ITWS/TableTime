@@ -3,7 +3,7 @@
 ![QR Code](/qr-code.png)
 
 
-
+[Link to Sub-Site Repo](https://github.com/Bonjour-ITWS/TableTime-SubSite)
 
 
 ***Main Site Info Box***:
