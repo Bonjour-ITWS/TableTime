@@ -11,6 +11,15 @@ function resT1() {
   //it should update the table color and status...
 }
 
+/*
 $( ".tables" ).click(function() {
     $( ".tables" ).css('background', 'green');
  	 });
+});
+*/
+
+$(document).ready(function() {
+  $( ".js-click" ).click(function() {
+    $( ".js-click" ).css('background', 'white');
+  });
+});
