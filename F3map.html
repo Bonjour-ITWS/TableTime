@@ -3,6 +3,8 @@
 <head>
 	<title>Folsom 3 Map</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<link rel="stylesheet" type="text/css" href="mapStyle.css"/>
 	<script type="text/javascript" src="resources/functions.js"></script>
 </head>
@@ -142,14 +144,18 @@
 
 
 
-	<img src="resources/floor.jpg" alt="Folsom 3 Floor" class="center">
+	<div class="container">
+			<img src="resources/floor.jpg" alt="Folsom 3 Floor" class="center">
+
+			<button class="btn" onclick="window.location.href='https://google.com'" target="_blank">Table1 Reservation Button</button>
+	</div>
 
 	<button class="js-click">Click me!</button>
 
 
 	<div class="tables">
 		<p id="t1">Table1</p>
-		<button onclick="location.href='https://google.com'" target="_blank">Table1 Reservation Button</button>
+		
 
 		<p>Table2</p>
 		<button id="ID">Table2 Reservation Button</button>
