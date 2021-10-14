@@ -1,3 +1,15 @@
+body{
+  font-family: Trade Gothic, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+
+  padding: 0;
+  margin:0;
+
+  text-align: center;
+
+}
+
 header{
 	background: #ab2328;
 	color:#ffffff;
