@@ -11,10 +11,10 @@
         
         
         -To add in future:
-            -Connect site to Database[!!!]
-            -Login via CAS system[!!!]
-            -Animations only load once per session to avoid annoyance and decrease user wait time before site actually functions[!!]
-            -Prettier "Time Picker"[!]
-            -Confirmation Page for Early Checkout[!!]
-            -Fade In animation for other pages instead of drop down?? (Since each page is of the same base format)[!]
+                -Connect site to Database[!!!]
+                -Login via CAS system[!!!]
+                -Animations only load once per session to avoid annoyance and decrease user wait time before site actually functions[!!]
+                -Prettier "Time Picker"[!]
+                -Confirmation Page for Early Checkout[!!]
+                -Fade In animation for other pages instead of drop down?? (Since each page is of the same base format)[!]
 
