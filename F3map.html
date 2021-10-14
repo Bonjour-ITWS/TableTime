@@ -15,10 +15,11 @@
 	<header>
 		<div class="container">
 			<div id="branding">
-
+				<!--
 				<span>
 					<img src="resources/RPIsmallLogoWhite.png" alt="RPI" width=15%>
 				</span>
+				-->
 			</div>
 			<nav>
 				<ul>
@@ -34,136 +35,17 @@
 
 
 
-	<!--individual rectangles floating from top to bottom-->
-	<div id="map">
-
-		<div class="tableTop"></div>
-
-		<div class="tableLeft"></div>
-
-		<div class="tableRight"></div>
-
-		<div class="tableBottom"></div>
-
-		<div class="mainStairs"></div>
-	</div>
-
-
-
-
-
-
-	<!--nest columns set up, so rows x columns-->
-	<div class="grandparent">	<!--row-->
-		<div class="parent">
-			<div class="child1">  <!--column-->
-				<p>I am on the left of the first parent container (which is inside a grandparent container).</p>
-				<p>The height of these containers isn't the same... do we know any ways to ensure that the container heights are the same?</p>
-			</div>
-
-
-
-
-			<div class="table">
-				<p style="color: white">I am table.</p>
-				<!-- make reserve button here -->
-				<button class="button"; onclick="buttonfunction()">
-				reserve button
-				</button>
-				<!-- how do we update the color/status of the table????? -->
-			</div>
-
-
-
-
-			<div class="child2">
-				<p>I am table.</p>
-				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
-			</div>
-			<div class="child2">
-				<p>I am table.</p>
-				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
-			</div>
-
-			<div class="child3">
-				<p>I am on the right of the first parent container (which is inside a grandparent container).</p>
-				<p>Notice how "float: left;" is in all three of the child CSS rules. Why is that? What would happen if we changed the float property?</p>
-			</div>
-		</div>
-	</div>
-
-	<div class="grandparent">
-		<div class="parent">
-			<div class="child1" style="float: left">
-				<p>Columns in columns!</p>
-			</div>
-
-			<div class="child2">
-				<p style="color: white">I am table.</p>
-			</div>
-			<div class="child2">
-				<p>I am table.</p>
-				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
-			</div>
-			<div class="child2">
-				<p>I am table.</p>
-				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
-			</div>
-
-			<div class="child3" style="float: left">
-				<p>You can do this kind of recursion indefinitely, but make sure it looks OK!</p>
-				<p>You should also try commenting out one of the parent containers (and its children) to see what happens--experiment!</p>
-			</div>
-		</div>
-	</div>
-	<div class="grandparent">
-		<div class="parent">
-			<div class="child1" style="float: left">
-				<p>Columns in columns!</p>
-			</div>
-
-			<div class="child2">
-				<p>I am table.</p>
-				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
-			</div>
-			<div class="child2">
-				<p>I am table.</p>
-				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
-			</div>
-			<div class="child2">
-				<p>I am table.</p>
-				<p>Notice how the <strong>content</strong> inside is aligned by default to the left of the container it is in!</p>
-			</div>
-
-			<div class="child3" style="float: left">
-				<p>You can do this kind of recursion indefinitely, but make sure it looks OK!</p>
-				<p>You should also try commenting out one of the parent containers (and its children) to see what happens--experiment!</p>
-			</div>
-		</div>
-	</div>
-
-
-
 	<div class="container">
 			<img src="resources/floor.jpg" alt="Folsom 3 Floor" class="center">
 
-			<button class="btn" onclick="window.location.href='https://google.com'" target="_blank">Table1 Reservation Button</button>
+			<button class="btn" onclick="window.location.href='https://google.com'" target="_blank">Reserve Table 1</button>
+
+			<button class="btn2" onclick="window.location.href='https://google.com'" target="_blank">Reserve Table 2</button>
+
+			<button class="btn3" onclick="window.location.href='https://google.com'" target="_blank">Reserve Table 3</button>
+
+			<button class="btn4" onclick="window.location.href='https://google.com'" target="_blank">Reserve Table 4</button>
 	</div>
-
-	<button class="js-click">Click me!</button>
-
-
-	<div class="tables">
-		<p id="t1">Table1</p>
-		
-
-		<p>Table2</p>
-		<button id="ID">Table2 Reservation Button</button>
-
-		<p>Table3</p>
-		<button id="ID">Table3 Reservation Button</button>
-	</div>
-
 	
 	  
 	

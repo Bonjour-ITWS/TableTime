@@ -31,64 +31,18 @@ header nav{
 	float:right;
 	margin-top: 10px;
 }
+/* This makes whatever page your on highlighted! */
+header .highlight, header .current a {
+  color:#000000;
+  font-weight: bold;
 
-
-
-/* making the grid map */
-.grandparent {
-  width: 100%;
+}
+/* This makes whatever page you hover on highlighted! */
+header a:hover{
+  color:#9ea2a2;
+  font-weight: bold;
 }
 
-.parent {
-  width: 100%;
-  height: 100%;
-  float: left;
-}
-
-.child1 {
-display: inline-block;
-  background-color: #ffffff;
-  width: 15%;
-  height: 250px;
-  float: left;
-  border-color: #000000;
-  border-width: thick;
-  border-style: dotted;
-}
-
-.child2 {
-	display: inline-block;
-  border-color: #000000;
-  background-color: #d6001c;
-  width: 15%;
-  height: 250px;
-  float: left;
-  border-width: thick;
-  border-style: dotted;
-}
-
-.table {
-  display: inline-block;
-  border-color: #000000;
-  background-color: #00205b;
-  width: 15%;
-  height: 250px;
-  float: left;
-  border-width: thick;
-  border-style: dotted;
-}
-
-.child3 {
-		display: inline-block;
-  border-color: #000000;
-
-  background-color: #ffffff;
-  width: 15%;
-  height: 250px;
-  float: left;
-  border-width: thick;
-  border-style: dotted;
-}
 
 
 .center {
@@ -130,11 +84,11 @@ button:visited { #ccc; }
 
 .container .btn {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 25%;
+  left: 25%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #555;
+  background-color: #00205b;
   color: white;
   font-size: 16px;
   padding: 12px 24px;
@@ -146,4 +100,78 @@ button:visited { #ccc; }
 
 .container .btn:hover {
   background-color: black;
+}
+
+.container .btn:focus{
+  background-color: #555;
+}
+
+.container .btn2 {
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #00205b;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.container .btn2:hover {
+  background-color: black;
+}
+
+.container .btn2:focus{
+  background-color: #555;
+}
+
+.container .btn3 {
+  position: absolute;
+  top: 25%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #00205b;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.container .btn3:hover {
+  background-color: black;
+}
+
+.container .btn3:focus{
+  background-color: #555;
+}
+
+
+.container .btn4 {
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #00205b;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.container .btn4:hover {
+  background-color: black;
+}
+
+.container .btn4:focus{
+  background-color: #555;
 }
