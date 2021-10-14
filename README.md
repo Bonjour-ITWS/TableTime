@@ -1,6 +1,6 @@
 # TableTime
 
-[a link](https://bonjour-itws.github.io/TableTime/)
+[Sub-Site Link](https://bonjour-itws.github.io/TableTime/)
 
 
         -Finalized Demo Page Features:
