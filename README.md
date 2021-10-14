@@ -13,6 +13,7 @@
          -Here there will be features of the main page listed
 
 ***Micro-Site Info Box***:
+
 [Sub-Site Demo Link](https://bonjour-itws.github.io/TableTime-SubSite/)
 
         -Finalized Demo Page Features:
