@@ -1,6 +1,6 @@
 # TableTime
 
-![QR Code](/qr-code.png = 250x250)
+![QR Code](/qr-code.png)
 
 
 [Sub-Site Demo Link](https://bonjour-itws.github.io/TableTime/)
