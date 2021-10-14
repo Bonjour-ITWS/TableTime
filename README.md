@@ -2,7 +2,11 @@
 
 [Sub-Site Demo Link](https://bonjour-itws.github.io/TableTime/)
 
-***Micro-Site Info Box***
+***Main Site Info Box***:
+
+                -Here there will be features of the main page listed
+
+***Micro-Site Info Box***:
 
         -Finalized Demo Page Features:
                 -Bootstrap/CSS used for "Drop Down" and "Fade In" Animations
