@@ -1,0 +1,189 @@
+body{
+  font-family: Trade Gothic, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+
+  padding: 0;
+  margin:0;
+
+  text-align: center;
+
+}
+
+header{
+	background: #ab2328;
+	color:#ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #d58570 5px solid;
+}
+
+header a{
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float:left;
+}
+
+header #branding h1{
+	margin:0;
+}
+
+header nav{
+	float:right;
+	margin-top: 10px;
+}
+/* This makes whatever page your on highlighted! */
+header .highlight, header .current a {
+  color:#000000;
+  font-weight: bold;
+
+}
+/* This makes whatever page you hover on highlighted! */
+header a:hover{
+  color:#9ea2a2;
+  font-weight: bold;
+}
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+button {
+  background: #00205b;
+  width: 200px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+button:focus{background-color:red;}
+
+
+/*
+button:visited { #ccc; }
+*/
+
+
+.container {
+  position: relative;
+  width: 100%;
+
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #00205b;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+.container .btn:focus{
+  background-color: #555;
+}
+
+.container .btn2 {
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #00205b;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.container .btn2:hover {
+  background-color: black;
+}
+
+.container .btn2:focus{
+  background-color: #555;
+}
+
+.container .btn3 {
+  position: absolute;
+  top: 25%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #00205b;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.container .btn3:hover {
+  background-color: black;
+}
+
+.container .btn3:focus{
+  background-color: #555;
+}
+
+
+.container .btn4 {
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #00205b;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.container .btn4:hover {
+  background-color: black;
+}
+
+.container .btn4:focus{
+  background-color: #555;
+}
