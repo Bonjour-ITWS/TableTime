@@ -31,3 +31,25 @@ https://stackoverflow.com/questions/24658424/what-is-a-good-way-to-place-multipl
 random clarification things:
 https://teamtreehouse.com/community/why-hashtag-in-css-selector
 https://scer.rpi.edu/brand-in-action/colors
+
+--- Martha ---
+
+Layout of the page:
+https://getbootstrap.com/docs/4.0/layout/grid/
+
+Header:
+https://www.rpi.edu/
+Bootstrap Examples
+
+Sidebar:
+https://html-shark.com/HTML/ShowHideSections.htm
+Bootstrap Examples
+
+Floor Selection:
+https://getbootstrap.com/docs/4.0/components/buttons/
+https://www.dominos.com/en/pages/order/#!/locations/search/?type=Delivery
+
+Footer:
+https://www.rpi.edu/
+Bootstrap Examples
+
