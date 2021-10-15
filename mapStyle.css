@@ -171,7 +171,7 @@ button:visited { #ccc; }
   left: 75%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #00205b;
+  background-color: black;
   color: white;
   font-size: 16px;
   padding: 12px 24px;
@@ -185,5 +185,5 @@ button:visited { #ccc; }
 }
 
 .container .btn4:focus{
-  background-color: #555;
+  background-color: black;
 }
