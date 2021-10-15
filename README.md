@@ -5,6 +5,9 @@
 
 [Link to Sub-Site Repo](https://github.com/Bonjour-ITWS/TableTime-SubSite)
 
+***Pptx Link***:
+https://docs.google.com/presentation/d/1qZDOm8KWpqnMmZN-BSuL2SMRLTE6z5t1/edit?usp=sharing&ouid=105388176510987033678&rtpof=true&sd=true
+
 
 ***Main Site Info Box***:
 
