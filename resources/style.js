@@ -12,3 +12,9 @@ function ShowRadioButtonDiv (IdBaseName, NumberOfButtons) {
     }
     return false;
 }
+
+function init(){
+    document.getElementById("GroupName1").click();
+}
+
+window.onload = init;
