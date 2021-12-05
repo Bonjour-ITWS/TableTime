@@ -91,17 +91,13 @@ button:visited { #ccc; }
 
 .container .btn {
   position: absolute;
-  top: 25%;
-  left: 25%;
   background-color: #00205b;
   color: white;
   font-size: 16px;
-  padding: 12px 24px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
-  transform: rotate(90deg);
 }
 
 .container .btn:hover {
@@ -112,83 +108,12 @@ button:visited { #ccc; }
   background-color: #555;
 }
 
-
-
-
-
-
-
-
-
-.container .btn2 {
-  position: absolute;
-  top: 60%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #00205b;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-}
-.container .btn2:hover {
-  background-color: black;
-}
-
-.container .btn2:focus{
-  background-color: #555;
-}
-
-.container .btn3 {
-  position: absolute;
-  top: 25%;
-  left: 75%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #00205b;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-}
-.container .btn3:hover {
-  background-color: black;
-}
-
-.container .btn3:focus{
-  background-color: #555;
+.vert {
+  transform: rotate(90deg);
 }
 
 
-.container .btn4 {
-  position: absolute;
-  top: 60%;
-  left: 75%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: black;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-}
-.container .btn4:hover {
-  background-color: black;
-}
 
-.container .btn4:focus{
-  background-color: black;
-}
 
 .container .covid-btn {
   background-color: red;
