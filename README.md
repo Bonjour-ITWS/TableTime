@@ -2,6 +2,7 @@
 
 ![QR Code](/qr-code.png)
 
+The old repo has all the previous history of this project: https://github.com/Bonjour-ITWS/TableTime-Final_Build
 
 [Link to Sub-Site Repo](https://github.com/Bonjour-ITWS/TableTime-SubSite)
 
