@@ -2,7 +2,8 @@
 
 ![QR Code](/qr-code.png)
 
-The old repo has all the previous history of this project: https://github.com/Bonjour-ITWS/TableTime-Final_Build
+This repo has all the material for this project and is most up to date: https://github.com/Bonjour-ITWS/TableTime-Final_Build
+This was created due to files needing to convert into php rather than html. Hence this repo contains the history of the project before php conversion.
 
 [Link to Sub-Site Repo](https://github.com/Bonjour-ITWS/TableTime-SubSite)
 
